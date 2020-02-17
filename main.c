@@ -7,13 +7,13 @@ bool isIntegerEqual(int a, int b) {
 }
 
 int main() {
-    int a = 2;
+    int a = 1;
     int b = 2;
     if (isIntegerEqual(a, b)) {
         printf("they're equal");
     }
     else {
-        printf("they're equal");
+        printf("they're not equal");
     }
     return 0;
 }
